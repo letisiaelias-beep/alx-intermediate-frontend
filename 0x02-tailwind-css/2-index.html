@@ -7,24 +7,28 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 <body class="p-4">
-    <header class="mb-4">
-        <h1 class="text-2xl font-bold">Complex Grid Layout with Nested Grids</h1>
+    <header>
+        <h1>Complex Grid Layout with Nested Grids</h1>
     </header>
 
+    <!-- Main grid: 2 columns, gap 4 -->
     <main class="grid grid-cols-2 gap-4">
-        <!-- First nested grid -->
-        <div class="grid grid-cols-2 gap-2 p-4 bg-blue-200">
+        <!-- First nested grid: 2 columns, blue background -->
+        <div class="grid grid-cols-2 p-4 gap-2 bg-blue-200">
             <div class="bg-blue-400 p-2">Nested 1</div>
             <div class="bg-blue-500 p-2">Nested 2</div>
         </div>
 
-        <div class="grid grid-cols-2 gap-2 p-4 bg-red-200">
+        <!-- Second nested grid: 2 columns, red background -->
+        <div class="grid grid-cols-2 p-4 gap-2 bg-red-200">
             <div class="bg-red-400 p-2">Nested 3</div>
             <div class="bg-red-500 p-2">Nested 4</div>
         </div>
 
+        <!-- Third content block -->
         <div class="bg-green-200 p-4">Content 3</div>
 
+        <!-- Fourth content block -->
         <div class="bg-yellow-200 p-4">Content 4</div>
     </main>
 </body>
