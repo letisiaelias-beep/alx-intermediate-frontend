@@ -1,0 +1,4 @@
+//Steps to installing sass
+1. Ensure Node.js and npm are installed . 
+2.  Open your terminal or command prompt: Navigate to your project directory if you are installing Sass locally for a specific project. 
+3. Initialize your project with npm (optional, for local installation). Install Sass: npm install sass -v 3.7.4 
